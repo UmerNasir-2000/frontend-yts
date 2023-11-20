@@ -1,11 +1,7 @@
-import '@mantine/core/styles.css';
-
-import {Button, MantineProvider} from '@mantine/core';
+// import '@mantine/core/styles.css';
 
 export default function App() {
     return (
-        <MantineProvider>
-            <Button>Welcome</Button>
-        </MantineProvider>
+        <h1>Welcome</h1>
     );
 }
